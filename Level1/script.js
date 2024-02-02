@@ -59,7 +59,7 @@ function checkAnswer() {
             if (userAnswer === correctAnswer) {
                 resultParagraph.innerText = " 🎉🎉 أحسنت";
             } else {
-                resultParagraph.innerText = "حاول مرة أخرى ، الاجابة الصحصيحة " + correctAnswer + ".";
+                resultParagraph.innerText = "حاول مرة أخرى ، الاجابة الصحيحة " + correctAnswer + ".";
             }
         } else {
             resultParagraph.innerText = "رجاءاً أدخل رقم";
